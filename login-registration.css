@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap%27');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Open Sans",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-parent
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/backround-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-parent .form-wrap
+{
+    width: 450px;
+    background: rgb(255 255 255 / 75%);
+    border-radius: 10px;
+    padding: 35px 40px;
+    backdrop-filter: blur(5px);
+}
+.form-wrap form h1
+{
+    font-family: 'Acme', sans-serif;
+    font-variant: small-caps;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form-wrap form h1 span
+{
+    font-variant: small-caps;
+    color: #FF0000;
+}
+.form-wrap form .single-input input
+{
+    width: 100%;
+    padding: 14px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3521);
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-wrap form .submit-button
+{
+    text-align: center;
+}
+.form-wrap form .submit-button button.button
+{
+    padding: 13px 30px;
+    background-color: #FF0000;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-wrap form .account-have
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.form-wrap form .account-have a
+{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
