@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap%27');
 
 *{
   font-family: 'Poppins', sans-serif;
@@ -13,13 +13,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:25px;
-  min-height: 100vh;
+  padding:0px;
+  min-height: 50vh;
   background: url(img/payment-car.png);
 }
 
 .container form{
-  padding:20px;
+  padding:5px;
   width:700px;
   background: #fff;
   box-shadow: 0 5px 10px rgba(0,0,0,.1);
@@ -87,7 +87,30 @@
   margin-top: 5px;
   cursor: pointer;
 }
+.container .submit-btn button{
+  padding: 13px 30px;
+    background-color: #FF0000;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
 
 .container form .submit-btn:hover{
   background: #FF0000;
+}
+.link {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #000000;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
 }
